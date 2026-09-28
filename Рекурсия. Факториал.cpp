@@ -9,11 +9,11 @@ int Fact ( int N )
   cout << "output N = \n " << N;
   return F;
 }
+
 void main()
 {
   int N;
   printf("Введите натуральное число: ");
   cin >> N;
   cout << Fact(N);
-  cin.get(); cin.get();
 }
