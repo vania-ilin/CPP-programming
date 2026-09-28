@@ -3,10 +3,10 @@ using namespace std;
 int Fact ( int N )
 {
   int F;   
-  printf("input N= %d \n ", N);
+  cout << "input N = \n " << N;
   if ( N <= 1 ) F = 1;
   else F = N * Fact(N - 1);
-  printf("output N= %d \n ", N);
+  cout << "output N = \n " << N;
   return F;
 }
 void main()
